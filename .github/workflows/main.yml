@@ -73,7 +73,7 @@ jobs:
       - name: Download Infuse Plus
         id: download_infp
         run: |
-          deb_url="https://github.com/dayanch96/InfusePlus/releases/download/v${{ inputs.tweak_version }}/com.dvntm.infuseplus_${{ inputs.tweak_version }}_iphoneos-arm.deb"
+          deb_url="https://www.dropbox.com/scl/fi/i0fd9h8l0ph2eeuxaiko1/Infuse-Plus-2.3.1-Kor-rootless.deb?rlkey=62ky99qo37cbqzql2zme4uusc&st=jcab5zsa&dl=0"
           wget "$deb_url" --no-verbose -O ${{ github.workspace }}/infplus.deb
 
       - name: Download Infuse
