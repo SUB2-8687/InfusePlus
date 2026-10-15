@@ -5,6 +5,10 @@
 "ProFeaturesDesc" = "Enables pro features not initially available without a subscription";
 "BackgroundPlayback" = "Background Playback";
 "BackgroundPlaybackDesc" = "Enforces background playback and prevents its disabling";
+"SupportInfuse" = "Support Infuse";
+"SupportInfuseDesc" = "If you enjoy Infuse, please consider purchasing Infuse Pro if you're able to, or leaving a positive App Store review to support the developers.";
+"BuyInfusePro" = "Buy Infuse Pro";
+"LeaveReview" = "Leave a Review";
 
 "PlayerSettings" = "Player";
 "DoubleTapPause" = "Double Tap To Play/Pause";
@@ -15,14 +19,70 @@
 "NoStockPlaybackSpeedDesc" = "Removes stock playback speed submenu from the playback settings menu";
 "NoStockVolumeBoost" = "No Stock Volume Boost";
 "NoStockVolumeBoostDesc" = "Removes stock volume boost submenu from the playback settings menu";
+"RememberPlaybackSpeed" = "Remember Playback Speed";
+"RememberPlaybackSpeedDesc" = "Remembers the last set playback speed and uses it as the default playback speed";
 "SkipByLongTap" = "Skip Using Long Press";
 "SkipByLongTapDesc" = "Long pressing the rewind buttons skips to the next/previous video";
 "LoopButton" = "Loop Button";
 "LoopButtonDesc" = "Adds a loop button to the overlay";
+"HorFlipButton" = "Horizontal flip";
+"HorFlipButtonDesc" = "Adds a horizontal flip button to the overlay";
+"VerFlipButton" = "Vertical flip";
+"VerFlipButtonDesc" = "Adds a vertical flip to the overlay";
 "SkipButtons" = "Skip buttons";
 "SkipButtonsDesc" = "Adds skip to next and previous buttons to the overlay";
 "HideRewindButtons" = "Hide Rewind Buttons";
 "HideRewindButtonsDesc" = "Removes rewind and fast forward buttons from the overlay";
+"MutePlayerOnly" = "Mute Player Only";
+"MutePlayerOnlyDesc" = "Mutes the player without affecting the system volume when using the in-player volume button";
+
+"IntroSettings" = "Intros";
+"SkipIntros" = "Skip Intros";
+"SkipIntrosDesc" = "Skips intros and other segments when detected";
+"DisplayInOverlay" = "Display Overlay Button";
+"DisplayInOverlayDesc" = "Shows a toggle button in the player overlay";
+"AudioNotification" = "Audio Notification";
+"AudioNotificationDesc" = "Plays a short sound when a segment is skipped";
+"NotifyAlertDuration" = "Notify Alert Duration";
+"SkipAlertDuration" = "Skip Alert Duration";
+"UnskipAlertDuration" = "Unskip Alert Duration";
+"SkipSound" = "Skip Sound";
+
+"Ignore" = "Ignore";
+"NotifyAndSkip" = "Notify and skip";
+"AutoSkip" = "Auto-skip";
+"Ask" = "Ask";
+
+"SegmentSettings" = "Segment Settings";
+"SegmentIntro" = "Intro";
+"SegmentRecap" = "Recap";
+"SegmentOutro" = "Outro";
+"SegmentPreview" = "Preview";
+"SegmentDisplay" = "Display in progress bar";
+"SegmentColor" = "Segment Color";
+
+"segment_intro" = "Intro segment";
+"segment_recap" = "Recap segment";
+"segment_outro" = "Outro segment";
+"segment_preview" = "Preview segment";
+
+"SkippingIntro" = "%@ is about to be skipped...";
+"IntroDetected" = "%@ detected. Do you want to skip it?";
+"IntroSkipped" = "%@ was just skipped";
+
+"Skip" = "Skip";
+"Unskip" = "Unskip";
+
+"OverlayLock" = "Overlay Lock";
+"OverlayLockDesc" = "Adds an overlay lock button to the playback settings menu";
+"AllowLongPresses" = "Allow Long Press Gestures";
+"AllowLongPressesDesc" = "Allows long press gestures over the locked overlay. For example, to change playback speed";
+"AllowDoubleTaps" = "Allow Double Tap Gestures";
+"AllowDoubleTapsDesc" = "Allows double tap gestures for fast forward, rewind, or play/pause playback";
+"AllowTwoFingerTaps" = "Allow Two-Finger Tap Gestures";
+"AllowTwoFingerTapsDesc" = "Allows two-finger tap gestures to play or pause playback";
+"AllowPanGestures" = "Allow Pan Gestures";
+"AllowPanGesturesDesc" = "Allows pan gestures for seeking and adjusting brightness/volume";
 
 "ShowStatusBar" = "Show Status Bar";
 "ShowStatusBarDesc" = "Shows status bar with connection, time and battery level in the player";
@@ -68,6 +128,8 @@
 "StartupPageHeader" = "Startup Page";
 
 "UpdateHeader" = "Infuse Plus Update";
+"AutoCleanTrash" = "Auto clean trash";
+"AutoCleanTrashDesc" = "Automatically cleans the Infuse trash folder on startup";
 "NotifyUpdates" = "Notify Updates";
 "NotifyUpdatesDesc" = "Shows an alert if a new version of the tweak is available";
 "UpdateLocalizations" = "Update Localizations";
@@ -82,6 +144,14 @@
 "ImportPrefs" = "Import Preferences";
 "ExportPrefs" = "Export Preferences";
 "RestoreDefaults" = "Restore Default Preferences";
+
+"AppInfo" = "App Info";
+"BundleAndAppIdentifierMatch" = "BundleID and ApplicationID match.";
+"BundleAndAppIdentifierMatchDesc" = "Folder picking, app icon change, Media Player in Control Center, and Dynamic Island interaction should work correctly.";
+"BundleAndAppIdentifierDontMatch" = "BundleID and ApplicationID do not match";
+"DontMatchIssuesInfo" = "This means that folder picking, app icon change, Media Player in Control Center, and Dynamic Island interaction may be partially or completely unavailable.";
+"HowToMatchInfo" = "To fix this, tap this cell to copy %@. Then re-sign and install the app using this ApplicationID as the BundleID.";
+"DuplicatedAppInfo" = "Note that the app will be installed separately from the current one, since the BundleIDs will differ.";
 
 "PreImportMessage" = "You are about to import Infuse Plus preferences. This action will permanently overwrite your current preferences.\n\nDo you want to continue?";
 "Import.Yes" = "Yes, import preferences";
@@ -104,6 +174,11 @@
 "LinksHeader" = "Links";
 
 "SpecialThanks" = "Special Thanks";
+"Credits" = "Credits";
+"FirecoreDesc" = "Creators of Infuse. None of this would be possible without them";
+"TheIntroDBDesc" = "Segment database provider";
+"IntroDBDesc" = "Segment database provider";
+
 "TopContributors" = "Top contributors";
 "Translators" = "Localization";
 "Arabic" = "Arabic localization";
@@ -111,6 +186,9 @@
 "ChineseTraditional" = "Chinese, Traditional localization";
 "Japanese" = "Japanese localization";
 "Spanish" = "Spanish localization";
+
+"LockOverlay" = "Lock Overlay";
+"TapToUnlock" = "Tap to unlock";
 
 "Photos" = "Photos";
 "Imported" = "Imported";
@@ -126,6 +204,7 @@
 "PlayDirectly" = "Play directly";
 "InvalidLink" = "Invalid link";
 "InvalidFile" = "Invalid file";
+"Error.Unknown" = "Unknown error occurred";
 "Done" = "Done";
 
 "FileImport" = "File import";

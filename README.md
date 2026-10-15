@@ -44,6 +44,21 @@
     </li>
     <li>Tap to playback duration to change between total duration, left duration and exact time when playback ends</li>
     <li>Separated custom skip times for double tap and rewind buttons</li>
+    <li>Loop, flip and skip buttons</li>
+    <li>Overlay lock</li>
+    <li>Display status bar in the player overlay</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Intro/Credits settings</summary>
+  <ul>
+    <li>Skip intros and other segments if detected</li>
+    <li>Display toggle button in the player overlay</li>
+    <li>Play audio notification when a segment is skipped</li>
+    <li>Set alert durations</li>
+    <li>Set segment display and skip settings</li>
+    <li>Select skip sound</li>
   </ul>
 </details>
 
@@ -52,9 +67,29 @@
   <ul>
     <li>Ability to set Title and Poster for the player in control center</li>
     <li>Startup tab selection</li>
+    <li>Auto clean trash folder</li>
     <li>New available tweak update notification</li>
     <li>Auto-update localizations</li>
+    <li>Tweak preferences management</li>
+    <li>App info</li>
   </ul>
 </details>
 
 **Infuse Plus preferences can be found in the Settings tab**
+
+## How to build an Infuse Plus app using Github actions
+> [!NOTE]
+> If this is your first time, complete following steps before starting:
+>
+> 1. Fork this repository using the fork button on the top-right
+> 2. On your forked repository, go to **Repository Settings** > **Actions**, enable **Read and Write** permissions.
+
+### Step-by-step build process
+<li>Click on <strong>Sync fork</strong>, and if your branch is out of date, click on <strong>Update branch</strong>.</li>
+<li>Navigate to the <strong>Actions tab</strong> in your forked repository and select <strong>Create Infuse Plus app</strong>.</li>
+<li>Click the <strong>Run workflow</strong> button located on the right side.</li>
+<li>Prepare a decrypted .ipa file, then upload it to a file provider (e.g., filebin.net, filemail.com, or Dropbox - these are recommended). Paste the URL of the decrypted IPA file in the provided field.</li>
+<li><strong>NOTE:</strong> Make sure to provide a <em>direct download link</em> to the file, not a link to a webpage. Otherwise, the process will fail.</li>
+<li>Enter the tweak version from the releases (the latest release is selected by default). You can also change the Bundle ID and Display Name if desired.</li>
+<li>Make sure all inputs are correct, then click <strong>Run workflow</strong> to start the process.</li>
+<li>Wait for the build to finish. After that, you can download the Infuse Plus app from the releases section of your forked repository. (If you can't find the releases section, go to your forked repository and add <em>/releases</em> to the URL, i.e., <em>https://github.com/YOUR_USERNAME/InfusePlus/releases</em>)</li>
