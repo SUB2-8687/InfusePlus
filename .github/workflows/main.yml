@@ -73,7 +73,7 @@ jobs:
       - name: Download Infuse Plus
         id: download_infp
         run: |
-          deb_url="https://www.dropbox.com/scl/fi/fow77642wnklnaoehb3oj/Infuse-Plus-2.6-Kor-rootless.deb?rlkey=c4on95znrqx2oquy6lb1cwgs3&st=bm1kx0v4&dl=0"
+          deb_url="https://www.dropbox.com/scl/fi/fow77642wnklnaoehb3oj/Infuse-Plus-2.6-Kor-rootless.deb?rlkey=c4on95znrqx2oquy6lb1cwgs3&st=80gakh7f&dl=0"
           wget "$deb_url" --no-verbose -O ${{ github.workspace }}/infplus.deb
 
       - name: Download Infuse
